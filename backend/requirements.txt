@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain
+langchain-community
+chromadb
+openai==0.28.0
+tiktoken
