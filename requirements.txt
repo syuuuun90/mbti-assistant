@@ -4,3 +4,6 @@ python-dotenv
 openai
 langchain-community
 chroma-hnswlib
+chromadb
+langchain-openai      # OpenAIEmbeddings の新パッケージ
+langchain-chroma      # Chroma VectorStore の新パッケージ
