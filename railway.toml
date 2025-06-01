@@ -1,0 +1,8 @@
+# railway.toml （ルートに置く）
+root = "backend"
+
+[build]
+builder = "NIXPACKS"
+
+[build.nixpacks]
+plan = "python"
