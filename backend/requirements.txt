@@ -1,8 +1,9 @@
 fastapi
 uvicorn[standard]
 python-dotenv
-langchain
+openai
 langchain-community
+chroma-hnswlib
 chromadb
-openai==0.28.0
-tiktoken
+langchain-openai      # OpenAIEmbeddings の新パッケージ
+langchain-chroma      # Chroma VectorStore の新パッケージ
