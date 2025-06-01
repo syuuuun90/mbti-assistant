@@ -14,3 +14,5 @@ frontend/.next/
 # OS／エディタ系
 .DS_Store
 *.log
+# 環境変数ファイル
+.env
