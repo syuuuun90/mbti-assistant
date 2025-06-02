@@ -11,7 +11,9 @@ export default function Home() {
   async function handleDiagnose(type) {
     setLoading(true);
     try {
-      const res = await fetch("http://localhost:8000/recommend", {
+      // Railway の公開 URL を環境変数から取得
+      const API = process.env.NEXT_PUBLIC_API_URL;
+      const res = await fetch(`${API}/recommend`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ mbti_type: type }),
